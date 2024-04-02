@@ -1,7 +1,7 @@
 <?php
 
-    $id = $_POST["userid"]
-    $pw = $_POST["userpw"]
+    $id = $_POST["userid"];
+    $pw = $_POST["userpw"];
 
     if ($id == "admin" && $pw == "1234"){
         $_SESSION["userid"] = $id;
