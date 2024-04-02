@@ -14,8 +14,8 @@
     <form action="login.php" method="post">
         <input type="text" name="userid" id="userid" require>
         <input type="password" name="userpw" id="userpw" require>
-        <input type="submit" value="로그인" id="loginBtn">
-        <input type="reset" value="취소">
+        <input type="submit" value="제출">
+        <input type="reset" value="삭제">
     </form>
 
     <script src="jquery-1.12.3.js"></script>
